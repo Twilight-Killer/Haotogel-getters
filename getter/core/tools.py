@@ -237,7 +237,7 @@ def Telegraph(author_name: str) -> telegraph.api.Telegraph:
         client.create_account(
             short_name="getteruser",
             author_name=author_name[:128],
-            author_url="https://t.me/kastaid",
+            author_url="https://t.me/HaoTogelOfficialLivedraw",
         )
     except BaseException:
         return None
